@@ -27,7 +27,8 @@
 }
 
 #block-demotheme-search,
-#block-demotheme-tools {
+#block-demotheme-tools,
+#block-demotheme-login {
     display: none;
 }
 

@@ -1874,9 +1874,6 @@ div.admin-panel .description {
 @media all and (min-width: 461px) and (max-width: 900px) {
   /* ------------ Header and Menus -------------------------- */
 
- .region-header {
-    margin: .5em 5px .75em;
-  }
   #logo,
   .site-logo {
     padding: 5px 0 0 5px; /* LTR */
@@ -1930,9 +1927,6 @@ div.admin-panel .description {
 
 @media all and (min-width: 901px) {
 
-  .region-header {
-    margin: 1em 5px 1.5em;
-  }
   #logo,
   .site-logo {
     padding: 15px 15px 15px 10px; /* LTR */
@@ -2156,9 +2150,33 @@ body {
     background-color: #ff000f;
 }
 .region-header {
-    background-color: #feff00;
     margin-bottom: 1em;
 }
 .region-content {
-    background-color: #09ff00;
+}
+
+#content {
+  padding: 1em;
+}
+
+#page-title {
+  margin-top: 0;
+}
+
+/* Sidebar */
+.views-field-field-image img {
+  width: 100%;
+}
+
+/* Content */
+.field-node--field-image {
+  float: none;
+  padding: 0 0 1em 0;
+}
+
+@media all and (min-width: 50em) {
+  .field-node--field-image {
+    float: left;
+    padding: 0 1em 1em 0;
+  }
 }
