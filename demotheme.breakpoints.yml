@@ -1,0 +1,18 @@
+demotheme.mobile:
+  label: mobile
+  mediaQuery: ''
+  weight: 2
+  multipliers:
+    - 1x
+demotheme.narrow:
+  label: narrow
+  mediaQuery: 'all and (min-width: 38em)'
+  weight: 1
+  multipliers:
+    - 1x
+demotheme.wide:
+  label: wide
+  mediaQuery: 'all and (min-width: 50em)'
+  weight: 0
+  multipliers:
+    - 1x

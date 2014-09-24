@@ -1,0 +1,55 @@
+.page {
+    width: 100%;
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.region-header,
+.region-content,
+.region-sidebar {
+    width: 100%;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.region-sidebar {
+    flex: 1 1 100%;
+    order: 1;
+}
+
+.region-content {
+    flex: 1 1 100%;
+    order: 2;
+}
+
+#block-demotheme-search,
+#block-demotheme-tools {
+    display: none;
+}
+
+@media all and (min-width: 38em) {
+    #block-demotheme-search,
+    #block-demotheme-tools {
+        display: block;
+    }
+
+    .region-sidebar {
+        flex: 0 0 15em;
+        order: 1;
+        margin-right: 1em;
+    }
+
+    .region-content {
+        flex: 1 14em;
+        order: 2;
+    }
+}
+
+@media all and (min-width: 50em) {
+    /* Nothing needed for the layout */
+}
+
