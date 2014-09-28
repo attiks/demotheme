@@ -1,0 +1,12 @@
+langcode: en
+name: demo_theme_content_image_tablet
+label: 'Content image tablet'
+effects:
+  6e380b19-cddc-42ec-b100-e74dd9587c39:
+    uuid: 6e380b19-cddc-42ec-b100-e74dd9587c39
+    id: image_scale
+    weight: 1
+    data:
+      width: 800
+      height: null
+      upscale: true

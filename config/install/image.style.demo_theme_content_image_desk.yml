@@ -1,0 +1,12 @@
+langcode: en
+name: demo_theme_content_image_desk
+label: 'Content image desk'
+effects:
+  67bb1ef1-41b6-48e4-bf00-f59349535781:
+    uuid: 67bb1ef1-41b6-48e4-bf00-f59349535781
+    id: image_scale
+    weight: 1
+    data:
+      width: 180
+      height: null
+      upscale: false

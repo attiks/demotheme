@@ -1,0 +1,12 @@
+langcode: en
+name: demo_theme_content_image_mobile
+label: 'Content image mobile'
+effects:
+  e493bbb0-2fdc-408a-8d07-074f510f60c8:
+    uuid: e493bbb0-2fdc-408a-8d07-074f510f60c8
+    id: image_scale
+    weight: 1
+    data:
+      width: 608
+      height: null
+      upscale: true

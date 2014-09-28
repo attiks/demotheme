@@ -1,0 +1,29 @@
+id: demo_theme_banner
+label: Banner
+mappings:
+  -
+    breakpoint_id: demotheme.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_style: demo_theme_banner_tablet
+    sizes: ''
+    sizes_image_styles:
+  -
+    breakpoint_id: demotheme.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_style: demo_theme_banner_tablet
+    sizes: ''
+    sizes_image_styles:
+  -
+    breakpoint_id: demotheme.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_style: demo_theme_banner_mobile
+    sizes: ''
+    sizes_image_styles:
+breakpointGroup: demotheme
+langcode: en
+dependencies:
+  theme:
+    - demotheme
