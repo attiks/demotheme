@@ -1,0 +1,46 @@
+id: demo_theme_content_with_sizes
+label: 'Content with sizes'
+mappings:
+  -
+    breakpoint_id: demotheme.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_style: demo_theme_content_image_desk
+    sizes: ''
+    sizes_image_styles:
+      large: '0'
+      medium: '0'
+      thumbnail: '0'
+  -
+    breakpoint_id: demotheme.narrow
+    multiplier: 1x
+    image_mapping_type: _none
+    image_style: ''
+    sizes: ''
+    sizes_image_styles:
+      large: '0'
+      medium: '0'
+      thumbnail: '0'
+  -
+    breakpoint_id: demotheme.mobile
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_style: ''
+    sizes: '(min-width: 38em) 70vw, 100vw'
+    sizes_image_styles:
+      demo_theme_w1000: demo_theme_w1000
+      demo_theme_w1200: demo_theme_w1200
+      demo_theme_w1400: demo_theme_w1400
+      demo_theme_w1600: demo_theme_w1600
+      demo_theme_w1800: demo_theme_w1800
+      demo_theme_w200: demo_theme_w200
+      demo_theme_w2000: demo_theme_w2000
+      demo_theme_w400: demo_theme_w400
+      demo_theme_w600: demo_theme_w600
+      demo_theme_w800: demo_theme_w800
+breakpointGroup: demotheme
+status: true
+langcode: en
+dependencies:
+  theme:
+    - demotheme

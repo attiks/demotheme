@@ -1,0 +1,12 @@
+langcode: en
+name: demo_theme_w2000
+label: w2000
+effects:
+  8fde12aa-ad3d-49bb-a82d-45f1bd4c34da:
+    uuid: 8fde12aa-ad3d-49bb-a82d-45f1bd4c34da
+    id: image_scale
+    weight: 1
+    data:
+      width: 2000
+      height: null
+      upscale: false

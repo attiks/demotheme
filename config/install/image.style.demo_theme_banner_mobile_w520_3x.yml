@@ -1,0 +1,11 @@
+langcode: en
+name: demo_theme_banner_mobile_w520_3x
+label: 'Banner mobile 520w 3x'
+effects:
+  bf3851f0-9901-42ef-8a07-7ebc3ba16367:
+    uuid: bf3851f0-9901-42ef-8a07-7ebc3ba16367
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1560
+      height: 577

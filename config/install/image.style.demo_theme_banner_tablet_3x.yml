@@ -1,0 +1,11 @@
+langcode: en
+name: demo_theme_banner_tablet_3x
+label: 'Banner tablet 3x'
+effects:
+  3d3c6abf-cf6e-411b-9405-05e2e01fb88d:
+    uuid: 3d3c6abf-cf6e-411b-9405-05e2e01fb88d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 510
+      height: 420

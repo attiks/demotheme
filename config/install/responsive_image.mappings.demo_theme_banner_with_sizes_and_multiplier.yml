@@ -1,0 +1,79 @@
+id: demo_theme_banner_with_sizes_and_multiplier
+label: 'Banner with sizes and multiplier'
+mappings:
+  -
+    breakpoint_id: demotheme.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_style: ''
+    sizes: ''
+    sizes_image_styles:
+      large: '0'
+      medium: '0'
+      thumbnail: '0'
+  -
+    breakpoint_id: demotheme.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_style: demo_theme_banner_tablet
+    sizes: ''
+    sizes_image_styles:
+      large: '0'
+      medium: '0'
+      thumbnail: '0'
+  -
+    breakpoint_id: demotheme.narrow
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_style: demo_theme_banner_tablet_2x
+    sizes: ''
+    sizes_image_styles:
+      large: '0'
+      medium: '0'
+      thumbnail: '0'
+  -
+    breakpoint_id: demotheme.narrow
+    multiplier: 3x
+    image_mapping_type: image_style
+    image_style: demo_theme_banner_tablet_3x
+    sizes: ''
+    sizes_image_styles:
+      large: '0'
+      medium: '0'
+      thumbnail: '0'
+  -
+    breakpoint_id: demotheme.mobile
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_style: ''
+    sizes: 90vw
+    sizes_image_styles:
+      demo_theme_banner_mobile_w320: demo_theme_banner_mobile_w320
+      demo_theme_banner_mobile_w320_2x: demo_theme_banner_mobile_w320_2x
+      demo_theme_banner_mobile_w320_3x: demo_theme_banner_mobile_w320_3x
+  -
+    breakpoint_id: demotheme.mobile
+    multiplier: 2x
+    image_mapping_type: sizes
+    image_style: ''
+    sizes: 90vw
+    sizes_image_styles:
+      demo_theme_banner_mobile_w320_2x: demo_theme_banner_mobile_w320_2x
+      demo_theme_banner_mobile_w420_2x: demo_theme_banner_mobile_w420_2x
+      demo_theme_banner_mobile_w520_2x: demo_theme_banner_mobile_w520_2x
+  -
+    breakpoint_id: demotheme.mobile
+    multiplier: 3x
+    image_mapping_type: sizes
+    image_style: ''
+    sizes: 90vw
+    sizes_image_styles:
+      demo_theme_banner_mobile_w320_3x: demo_theme_banner_mobile_w320_3x
+      demo_theme_banner_mobile_w420_3x: demo_theme_banner_mobile_w420_3x
+      demo_theme_banner_mobile_w520_3x: demo_theme_banner_mobile_w520_3x
+breakpointGroup: demotheme
+status: true
+langcode: en
+dependencies:
+  theme:
+    - demotheme
