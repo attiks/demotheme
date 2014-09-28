@@ -4,12 +4,16 @@ demotheme.mobile:
   weight: 2
   multipliers:
     - 1x
+    - 2x
+    - 3x
 demotheme.narrow:
   label: narrow
   mediaQuery: 'all and (min-width: 38em)'
   weight: 1
   multipliers:
     - 1x
+    - 2x
+    - 3x
 demotheme.wide:
   label: wide
   mediaQuery: 'all and (min-width: 50em)'
