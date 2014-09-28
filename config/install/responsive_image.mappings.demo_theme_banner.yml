@@ -8,6 +8,9 @@ mappings:
     image_style: demo_theme_banner_tablet
     sizes: ''
     sizes_image_styles:
+      large: '0'
+      medium: '0'
+      thumbnail: '0'
   -
     breakpoint_id: demotheme.narrow
     multiplier: 1x
@@ -15,6 +18,9 @@ mappings:
     image_style: demo_theme_banner_tablet
     sizes: ''
     sizes_image_styles:
+      large: '0'
+      medium: '0'
+      thumbnail: '0'
   -
     breakpoint_id: demotheme.mobile
     multiplier: 1x
@@ -22,6 +28,9 @@ mappings:
     image_style: demo_theme_banner_mobile
     sizes: ''
     sizes_image_styles:
+      large: '0'
+      medium: '0'
+      thumbnail: '0'
 breakpointGroup: demotheme
 langcode: en
 dependencies:
